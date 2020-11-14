@@ -1,24 +1,21 @@
 # template-vue
 
+Template to projects made with Vue
+
+## Technologies used
+
+- vue-cli
+- sass
+- autoprefixer
+- eslin
+- prettier
+
 ## Project setup
-```
+
+```sh
 yarn install
-```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+yarn start # Compiles and hot-reloads for development
 
-### Compiles and minifies for production
+yarn build # Compiles and minifies for production
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
