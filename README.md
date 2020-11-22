@@ -1,5 +1,7 @@
 # template-vue
 
+![banner-template](./.github/banner-template.png)
+
 Template to projects made with Vue
 
 ## Technologies used
