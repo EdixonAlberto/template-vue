@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 // VIEWS
-import Home from '@views/home';
+const Home = () => import('@views/home');
 
 Vue.use(VueRouter);
 
@@ -17,6 +17,10 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
+  scrollBehavior: (to, from, savedPosition) => {
+    if (savedPosition) return savedPosition;
+    else return { y: 0, behavior: 'smooth' };
+  },
   routes
 });
 
