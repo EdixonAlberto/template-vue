@@ -7,9 +7,10 @@ Template to projects made with Vue
 ## Technologies used
 
 - vue-cli
+- vue-router
 - sass
 - autoprefixer
-- eslin
+- eslint
 - prettier
 
 ## Project setup
