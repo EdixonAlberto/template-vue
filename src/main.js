@@ -2,6 +2,9 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router';
 
+// ASSETS
+import './assets/scss/main.scss';
+
 // PLUGINS
 import { fontAwesome } from './plugins/fontAwesome';
 

@@ -6,7 +6,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        prependData: `@import "@assets/scss/_variables.scss";`
+        prependData: `@import "@assets/scss/utils";`
       },
       postcss: {
         autoprefixer: true,
@@ -19,7 +19,8 @@ module.exports = {
       alias: {
         '@assets': resolve(baseUrl, 'assets'),
         '@components': resolve(baseUrl, 'components'),
-        '@views': resolve(baseUrl, 'views')
+        '@views': resolve(baseUrl, 'views'),
+        '@api': resolve(baseUrl, 'services', 'api')
       },
       extensions: ['*', '.js', '.vue', '.json']
     }
