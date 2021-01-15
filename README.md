@@ -16,9 +16,9 @@ Template to projects made with Vue
 ## Project setup
 
 ```sh
-yarn install
+npm install
 
-yarn start # Compiles and hot-reloads for development
+npm start # Compiles and hot-reloads for development
 
-yarn build # Compiles and minifies for production
+npm build # Compiles and minifies for production
 ```
