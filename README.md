@@ -8,6 +8,7 @@ Template to projects made with Vue
 
 - vue-cli
 - vue-router
+- vuex
 - sass
 - autoprefixer
 - eslint
